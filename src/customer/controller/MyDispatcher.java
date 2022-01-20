@@ -38,7 +38,7 @@ public class MyDispatcher extends HttpServlet{
 		
 		// NoticeDetailController controller1=new NoticeDetailController();
 		// NoticeEditController controller2=new NoticeEditController();
-		
+		//
 		// 인터페이스 타입으로 통일시킴 (Controller 타입)
 		try {
 			if (com.equals("/customer/noticeDetail.do")) {
