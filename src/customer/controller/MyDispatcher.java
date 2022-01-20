@@ -27,7 +27,7 @@ public class MyDispatcher extends HttpServlet{
 		
 		System.out.println("============ < MyDispatcher In > ============");
 		String uri=request.getRequestURI();
-		String conPath=request.getContextPath();
+		String conPath=request.getContextPath(); //1
 		String com=uri.substring(conPath.length());
 		
 		System.out.println("uri: "+uri);
