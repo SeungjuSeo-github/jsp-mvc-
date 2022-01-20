@@ -1,0 +1,8 @@
+label{
+	width: 140px;
+	/* float: left; */
+	margin-right: 5px;
+	padding-left: 5px;
+	background-color: #eee;
+	display: inline-block;
+}
