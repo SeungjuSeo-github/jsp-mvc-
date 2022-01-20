@@ -23,8 +23,8 @@ public class MyDispatcher extends HttpServlet{
 	
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) 
-			throws ServletException, IOException {
-		
+			throws ServletException, IOException {   
+		1
 		System.out.println("============ < MyDispatcher In > ============");
 		String uri=request.getRequestURI();
 		String conPath=request.getContextPath();
