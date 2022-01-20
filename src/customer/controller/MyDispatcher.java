@@ -34,7 +34,7 @@ public class MyDispatcher extends HttpServlet{
 		System.out.println("conPath: "+conPath); // properties - Web Project Settings - context root 값 
 		System.out.println("com: "+com); // 주소줄을 간결하게 표현하기 위해 conPath를 자른 것
 		
-		Controller controller=null;
+		Controller controller=null; //
 		
 		// NoticeDetailController controller1=new NoticeDetailController();
 		// NoticeEditController controller2=new NoticeEditController();
